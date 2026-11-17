@@ -156,3 +156,6 @@ For API clients, use the authenticated session cookie. Do not expose administrat
 ## Production deployment notes
 
 Before deploying publicly: use HTTPS, set `NODE_ENV=production`, use a strong unique session secret, use a managed MongoDB deployment with network access restricted, set backups and monitoring, configure a reverse proxy/trusted proxy correctly if used, and add an operational password-reset/email verification flow. This starter includes secure foundations but should receive a deployment-specific security review before handling real industry/customer data.
+
+# Industry-user-management
+project
